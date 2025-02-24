@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Quiz - Microsoft Entra ID</title>
+    <link rel="icon" href="./smile_927593.png">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleAnswer(id) {
+            var answer = document.getElementById(id);
+            answer.style.display = answer.style.display === "none" ? "block" : "none";
+        }
+    </script>
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Pop Quiz: Validate Your Learning!</h1>
+        <p>Test yourself with these Yes or No questions:</p>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q1')">
+                Can a Microsoft Entra ID tenant contain both internal and guest users? ▼
+            </button>
+            <p class="answer" id="q1">✅ Yes</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q2')">
+                Can static group membership be updated automatically? ▼
+            </button>
+            <p class="answer" id="q2">❌ No</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q3')">
+                Does Microsoft Entra ID P1 or P2 licensing enable dynamic groups? ▼
+            </button>
+            <p class="answer" id="q3">✅ Yes</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q4')">
+                Can users be bulk-created using Azure CLI? ▼
+            </button>
+            <p class="answer" id="q4">✅ Yes</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q5')">
+                Are external users granted full internal access by default? ▼
+            </button>
+            <p class="answer" id="q5">❌ No</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q6')">
+                Can guest users be added to Microsoft Entra ID groups? ▼
+            </button>
+            <p class="answer" id="q6">✅ Yes</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q7')">
+                Is it possible to assign multiple owners to a security group? ▼
+            </button>
+            <p class="answer" id="q7">✅ Yes</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q8')">
+                Do dynamic groups require manual membership updates? ▼
+            </button>
+            <p class="answer" id="q8">❌ No</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q9')">
+                Can an organization have multiple Microsoft Entra ID tenants? ▼
+            </button>
+            <p class="answer" id="q9">✅ Yes</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q10')">
+                Does inviting an external user automatically grant them admin privileges? ▼
+            </button>
+            <p class="answer" id="q10">❌ No</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q11')">
+                Can Microsoft Graph API be used to create users in bulk? ▼
+            </button>
+            <p class="answer" id="q11">✅ Yes</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q12')">
+                Are static groups updated automatically based on user properties? ▼
+            </button>
+            <p class="answer" id="q12">❌ No</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q13')">
+                Is it necessary to manually approve guest user invitations before they can access resources? ▼
+            </button>
+            <p class="answer" id="q13">❌ No</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q14')">
+                Can a user be a member of multiple security groups in Microsoft Entra ID? ▼
+            </button>
+            <p class="answer" id="q14">✅ Yes</p>
+        </div>
+
+        <div class="quiz">
+            <button class="question" onclick="toggleAnswer('q15')">
+                Does assigning users to groups help in managing access control efficiently? ▼
+            </button>
+            <p class="answer" id="q15">✅ Yes</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
